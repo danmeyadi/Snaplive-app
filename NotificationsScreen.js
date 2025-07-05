@@ -2,10 +2,10 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function NotificationsScreen() {
+export default function NotificationScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Notifications Screen</Text>
+      <Text style={styles.text}>Notifications 🔔</Text>
     </View>
   );
 }
@@ -19,6 +19,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 24,
-    color: '#333',
+    fontWeight: 'bold',
+    color: '#ff3b30',
   },
 });
