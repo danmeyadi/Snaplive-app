@@ -3,9 +3,15 @@
     screenOptions={({ route }) => ({
       tabBarIcon: ({ focused, color, size }) => {
         let iconName;
-        if (route.name === 'Home') iconName = focused ? 'home' : 'home-outline';
-        else if (route.name === 'Explore') iconName = focused ? 'search' : 'search-outline';
-        else if (route.name === 'Profile') iconName = focused ? 'person' : 'person-outline';
+        if (route.name === 'Home') {
+          iconName = focused ? 'home' : 'home-outline';
+        } 
+        else if (route.name === 'Explore') {
+          iconName = focused ? 'search' : 'search-outline';
+        }
+        else if (route.name === 'Profile') {
+          iconName = focused ? 'person' : 'person-outline';
+        }
         return <Ionicons name={iconName} size={size} color={color} />;
       },
       tabBarActiveTintColor: 'blue',
