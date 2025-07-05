@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 24,
-    color: 'purple',
+    fontWeight: 'bold',
+    color: '#5856d6',
   },
 });
