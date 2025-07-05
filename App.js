@@ -1,3 +1,7 @@
-import HomeScreen from './screens/HomeScreen';
-import ExploreScreen from './screens/ExploreScreen';
-// ... repeat for others
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Tab.Navigator>{/* Your tabs here */}</Tab.Navigator>
+    </NavigationContainer>
+  );
+}
